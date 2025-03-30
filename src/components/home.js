@@ -107,13 +107,13 @@ const Home = () => {
 
   return (
     <div className="home">
-      <header className="header container">
+      <header className="header container" id="header_puzzle">
         <nav>
           <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
           <ul>
-            <li>{translations[language].navHowItWorks}</li>
-            <li>{translations[language].navPhone}</li>
-            <li>{translations[language].navStartLearning}</li>
+            <li><a href="#works">{translations[language].navHowItWorks}</a></li>
+            <li><a href="#mobile">{translations[language].navPhone}</a></li>
+            <li><a href="#header_puzzle">{translations[language].navStartLearning}</a></li>
           </ul>
           <select className="change-lang" onChange={handleLanguageChange}>
             <option value="ua">UA</option>
@@ -279,7 +279,7 @@ const Home = () => {
           </div>
         )}
 
-        <section className="works container">
+        <section className="works container" id="works">
           <div className="works_title">
             <h2>{translations[language].howItWorks}</h2>
             <p>{translations[language].howItWorksText}</p>
@@ -317,7 +317,7 @@ const Home = () => {
           <p className="works_result">{translations[language].resultText}</p>
         </section>
 
-        <section className="mobile_version container">
+        <section className="mobile_version container" id="mobile">
           <div className="application_title">
             <h2>{translations[language].mobileTitle}</h2>
             <p>{translations[language].mobileDescription}</p>

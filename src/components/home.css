@@ -66,6 +66,10 @@ input{
   margin-top: 15px;
   font-size: 22px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 .mb-3-3{
   text-align: left;
 }
