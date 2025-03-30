@@ -122,7 +122,7 @@ const LostCap = () => {
     return (
         <div>
             <nav className="container">
-            <img src="./images/logo1.png" alt="" className="logo"/>
+            <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
                 <ul>
                     <li>{translations[language].navHowItWorks}</li>
                     <li>{translations[language].navPhone}</li>
@@ -158,14 +158,14 @@ const LostCap = () => {
                             onClick={() => handleEmotionClick('Тривога')}
                         >
                             Тривога
-                            <img src="./images/anxiety-unscreen.gif" className="image_gif" />
+                            <img src="./images/gif/module_1/first_level/Anxiety1-unscreen.gif" className="image_gif" />
                         </button>
                         <button
                             className={`btn_variant wrong_btn ${selectedEmotion === 'Злість' ? 'red' : ''}`}
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Злість
-                            <img src="./images/anger-unscreen.gif" className="image_gif" />
+                            <img src="./images/gif/module_1/first_level/Anger1-unscreen.gif" className="image_gif" />
                         </button>
                     </div>
                     <div className="right_variant">
@@ -174,14 +174,14 @@ const LostCap = () => {
                             onClick={() => handleEmotionClick('Смуток')}
                         >
                             Смуток
-                            <img src="./images/sadness-unscreen.gif" className="image_gif" />
+                            <img src="./images/gif/module_1/first_level/Sadness1-unscreen.gif" className="image_gif" />
                         </button>
                         <button 
                             className={`btn_variant wrong_btn ${selectedEmotion === 'Розгубленість' ? 'red' : ''}`}
                             onClick={() => handleEmotionClick('Розгубленість')}
                         >
                             Розгубленість
-                            <img src="./images/confusion-unscreen.gif" className="image_gif" />
+                            <img src="./images/gif/module_1/first_level/Confusion1-unscreen.gif" className="image_gif" />
                         </button>
                     </div>
                     <div className="variables_btn">

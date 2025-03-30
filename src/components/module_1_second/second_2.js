@@ -118,7 +118,7 @@ const Second_2 = () => {
   return (
     <div className="container">
       <nav className="container">
-      <img src="./images/logo1.png" alt="" className="logo"/>
+      <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
         <ul>
           <li>{translations[language].navHowItWorks}</li>
           <li>{translations[language].navPhone}</li>
@@ -167,6 +167,7 @@ const Second_2 = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Зніяковіння
+              <img src="./images/gif/module_2/second2_level/Embarrassment2-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant wrong_btn ${
@@ -175,6 +176,7 @@ const Second_2 = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Злість
+              <img src="./images/gif/module_2/second2_level/Anger2-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="right_variant">
@@ -185,6 +187,7 @@ const Second_2 = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Смуток
+              <img src="./images/gif/module_2/second2_level/Sadness2-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant correct_variant ${
@@ -193,6 +196,7 @@ const Second_2 = () => {
               onClick={() => handleEmotionClick("Смуток")}
             >
               Полегшення
+              <img src="./images/gif/module_2/second2_level/Relief2-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="variables_btn">

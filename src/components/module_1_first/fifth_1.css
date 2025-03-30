@@ -85,12 +85,7 @@ h3{
 .wrong_btn{
     position: relative;
 }
-.image_gif{
-    position: absolute;
-    bottom: 0px;
-    height: 180px;
-    width: 300px;
-}
+
 .correct_variant{
     position: relative;
 }

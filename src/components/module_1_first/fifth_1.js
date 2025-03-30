@@ -119,7 +119,7 @@ const Fifth = () => {
   return (
     <div className="container">
       <nav className="container">
-      <img src="./images/logo1.png" alt="" className="logo"/>
+      <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
         <ul>
           <li>{translations[language].navHowItWorks}</li>
           <li>{translations[language].navPhone}</li>
@@ -166,6 +166,7 @@ const Fifth = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Зніяковіння
+              <img src="./images/gif/module_1/fifth_level/Embarrassment5-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant wrong_btn ${
@@ -174,6 +175,7 @@ const Fifth = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Роздратування
+              <img src="./images/gif/module_1/fifth_level/irritation5-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="right_variant">
@@ -184,6 +186,7 @@ const Fifth = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Подив
+              <img src="./images/gif/module_1/fifth_level/Surprise5-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant correct_variant ${
@@ -192,6 +195,7 @@ const Fifth = () => {
               onClick={() => handleEmotionClick("Смуток")}
             >
               Вдячність
+              <img src="./images/gif/module_1/fifth_level/Gratitude5-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="variables_btn">

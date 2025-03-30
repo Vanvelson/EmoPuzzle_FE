@@ -109,7 +109,7 @@ const Home = () => {
     <div className="home">
       <header className="header container">
         <nav>
-          <img src="./images/logo1.png" alt="" className="logo"/>
+          <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
           <ul>
             <li>{translations[language].navHowItWorks}</li>
             <li>{translations[language].navPhone}</li>
@@ -128,7 +128,7 @@ const Home = () => {
               <span className="puzzle">Puzzle</span>
             </h1>
             <p>{translations[language].helpingChildren}</p>
-            <button>
+            <button onClick={openFirstModal}>
               <p className="button_text">
                 {translations[language].startLearning}
               </p>
@@ -175,6 +175,10 @@ const Home = () => {
                   <h3>Пароль</h3>
                   <input type="password" className="form-control" />
                 </div>
+                <div className="checkbox_block">
+                  <input type="checkbox" className="checkbox"></input>
+                  <p>Privacy Policy</p>
+                </div>
                 <button className="btn btn-primary" onClick={handleLoginClick}>
                   Увійти
                 </button>
@@ -196,7 +200,7 @@ const Home = () => {
                   <div class="modal-body">
                     <div class="mb-3">
                       <h3>Введіть робочу адресу електроної пошти</h3>
-                      <p>Потрібно підтвердити цю пошту пізніше</p>
+                      <p className="paragraph_modal">Потрібно підтвердити цю пошту пізніше</p>
                       <input
                         type="email"
                         class="form-control"
@@ -220,6 +224,10 @@ const Home = () => {
                         className="form-control"
                         id="InputPassword1"
                       />
+                    </div>
+                    <div className="checkbox_block">
+                      <input type="checkbox" className="checkbox"></input>
+                      <p>Privacy Policy</p>
                     </div>
                   </div>
                   <div className="modal-footer">
@@ -246,7 +254,7 @@ const Home = () => {
             <div className="modal-content">
               <div className="bg"></div>
               <div className="inmodal">
-              <img src="./images/user_reg.png" />
+                <img src="./images/user_reg.png" />
                 <div className="mb-3-3">
                   <h3>Створіть пароль</h3>
                   <input
@@ -257,12 +265,12 @@ const Home = () => {
                   <p>Це буде відображатися у Вашому профілі </p>
                 </div>
                 <button
-                      type="submit"
-                      className="btn btn-primary" onClick={handleLoginClick}
-                      
-                    >
-                      Далі
-                    </button>
+                  type="submit"
+                  className="btn btn-primary" onClick={handleLoginClick}
+
+                >
+                  Далі
+                </button>
                 <button onClick={closeThirdModal} className="closeModal">
                   Close
                 </button>

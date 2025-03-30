@@ -120,7 +120,7 @@ const Third1 = () => {
     return (
         <div>
             <nav className="container">
-            <img src="./images/logo1.png" alt="" className="logo"/>
+            <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
                 <ul>
                     <li>{translations[language].navHowItWorks}</li>
                     <li>{translations[language].navPhone}</li>
@@ -156,12 +156,14 @@ const Third1 = () => {
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Смуток
+                            <img src="./images/gif/module_1/third_level/Sadness3-unscreen.gif" className="image_gif" />
                         </button>
                         <button
                             className={`btn_variant correct_variant ${selectedEmotion === 'Смуток' ? 'green' : ''}`}
                             onClick={() => handleEmotionClick('Смуток')}
                         >
                             Розчарування
+                            <img src="./images/gif/module_1/third_level/Embarrassment3-unscreen.gif" className="image_gif" />
                         </button>
                     </div>
                     <div className="right_variant">
@@ -170,12 +172,14 @@ const Third1 = () => {
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Злість
+                            <img src="./images/gif/module_1/third_level/Anger3-unscreen.gif" className="image_gif" />
                         </button>
                         <button
                             className={`btn_variant wrong_btn ${selectedEmotion === 'Злість' ? 'red' : ''}`}
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Зніяковіння
+                            <img src="./images/gif/module_1/third_level/Disappointment3-unscreen.gif" className="image_gif" />
                         </button>
                     </div>
                     <div className="variables_btn">

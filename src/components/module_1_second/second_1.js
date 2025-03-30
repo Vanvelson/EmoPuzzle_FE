@@ -120,7 +120,7 @@ const Second_1 = () => {
   return (
     <div className="container">
       <nav className="container">
-        <img src="./images/logo1.png" alt="" className="logo" />
+        <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
         <ul>
           <li>{translations[language].navHowItWorks}</li>
           <li>{translations[language].navPhone}</li>
@@ -172,6 +172,7 @@ const Second_1 = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Сонливість
+              <img src="./images/gif/module_2/first2_level/Drowsiness1-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant wrong_btn ${selectedEmotion === "Злість" ? "red" : ""
@@ -179,6 +180,7 @@ const Second_1 = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Страх
+              <img src="./images/gif/module_2/first2_level/Fear1-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="right_variant">
@@ -188,6 +190,7 @@ const Second_1 = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Радість
+              <img src="./images/gif/module_2/first2_level/Joy1-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant correct_variant ${selectedEmotion === "Смуток" ? "green" : ""
@@ -195,6 +198,7 @@ const Second_1 = () => {
               onClick={() => handleEmotionClick("Смуток")}
             >
               Роздратування
+              <img src="./images/gif/module_2/first2_level/Irritation1-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="variables_btn">

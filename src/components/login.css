@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Mulish";
 }
+
 .back-button{
     margin-top: 20px;
     margin-left: 30px;
@@ -21,6 +22,7 @@ h2{
     margin-top: 50px;
 }
 
+
 .level_block{
     display: flex; 
     align-items: center;
@@ -28,6 +30,7 @@ h2{
     gap: 20px;
     margin-top: 40px;
     cursor: pointer;
+    margin-bottom: 140px;
 }
 .lvl_block1:hover{
     transform: translateY(12px);
@@ -51,6 +54,3 @@ h2{
     padding: 36px 103px 18px 103px;
 }
 
-.footer{
-    margin-top: 150px;
-}

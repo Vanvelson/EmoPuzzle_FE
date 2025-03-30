@@ -27,6 +27,7 @@ import Fourth_p_5 from "./components/module_1_fourth/fourth_p_5";
 import Scene from "./components/scene";
 import Scene_1 from "./components/scene_1";
 import Scene_2 from "./components/scene_2";
+import Camera from "./components/camera";
 import "./App.css"; 
 
 const App = () => {
@@ -60,6 +61,7 @@ const App = () => {
         <Route path="/scene" element={<Scene />} />
         <Route path="/scene_1" element={<Scene_1 />} />
         <Route path="/scene_2" element={<Scene_2 />} />
+        <Route path="/camera" element={<Camera />} />
       </Routes>
     </Router>
   );

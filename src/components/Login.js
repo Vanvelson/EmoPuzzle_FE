@@ -74,6 +74,9 @@ const Login = () => {
   const goToFirstLevel = () => {
     navigate("/firstlevel"); 
   };
+  const goToSecondLevel = () => {
+    navigate("/camera"); 
+  };
   const goToThirdLevel = () => {
     navigate("/thirdlevel"); 
   };
@@ -83,7 +86,7 @@ const Login = () => {
   return (
     <div className="login">
       <nav className="container">
-      <img src="./images/logo1.png" alt="" className="logo"/>
+      <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
         <ul>
           <li>{translations[language].navHowItWorks}</li>
           <li>{translations[language].navPhone}</li>
@@ -106,7 +109,7 @@ const Login = () => {
             <img src="./images/level1_block.png"></img>
           </div>
 
-          <div className="item_block lvl_block2">
+          <div className="item_block lvl_block2" onClick={goToSecondLevel}>
             <h3>Вираження емоцій</h3>
             <img src="./images/level2_block.png"></img>
           </div>

@@ -120,7 +120,7 @@ const Third_p_5 = () => {
     return (
         <div className="container">
             <nav className="container">
-            <img src="./images/logo1.png" alt="" className="logo"/>
+            <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
                 <ul>
                     <li>{translations[language].navHowItWorks}</li>
                     <li>{translations[language].navPhone}</li>

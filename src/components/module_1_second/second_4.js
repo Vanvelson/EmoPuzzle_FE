@@ -123,7 +123,7 @@ const Second_4 = () => {
     return (
         <div className="container">
             <nav className="container">
-            <img src="./images/logo1.png" alt="" className="logo"/>
+            <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
                 <ul>
                     <li>{translations[language].navHowItWorks}</li>
                     <li>{translations[language].navPhone}</li>
@@ -161,12 +161,14 @@ const Second_4 = () => {
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Злість
+                            <img src="./images/gif/module_2/fourth2_level/Anger4-unscreen.gif" className="image_gif" />
                         </button>
                         <button
                             className={`btn_variant correct_variant ${selectedEmotion === 'Смуток' ? 'green' : ''}`}
                             onClick={() => handleEmotionClick('Смуток')}
                         >
                             Радість
+                            <img src="./images/gif/module_2/fourth2_level/Joy4-unscreen.gif" className="image_gif" />
                         </button>
                     </div>
                     <div className="right_variant">
@@ -175,12 +177,14 @@ const Second_4 = () => {
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Смуток
+                            <img src="./images/gif/module_2/fourth2_level/Sadness4-unscreen.gif" className="image_gif" />
                         </button>
                         <button
                             className={`btn_variant wrong_btn ${selectedEmotion === 'Злість' ? 'red' : ''}`}
                             onClick={() => handleEmotionClick('Злість')}
                         >
                             Сонливість
+                            <img src="./images/gif/module_2/fourth2_level/Drowsiness4-unscreen.gif" className="image_gif" />
                         </button>
                     </div>
                     <div className="variables_btn">

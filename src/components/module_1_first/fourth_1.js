@@ -119,7 +119,7 @@ const Fourth = () => {
   return (
     <div className="container">
       <nav className="container">
-      <img src="./images/logo1.png" alt="" className="logo"/>
+      <img src="./images/logo1.png" alt="" className="logo" onClick={() => navigate("/")}/>
         <ul>
           <li>{translations[language].navHowItWorks}</li>
           <li>{translations[language].navPhone}</li>
@@ -167,6 +167,7 @@ const Fourth = () => {
               onClick={() => handleEmotionClick("Смуток")}
             >
               Радість
+              <img src="./images/gif/module_1/fourth_level/Joy4-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant wrong_btn ${
@@ -175,6 +176,7 @@ const Fourth = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Розчарування
+              <img src="./images/gif/module_1/fourth_level/Disappointment4-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="right_variant">
@@ -185,6 +187,7 @@ const Fourth = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Злість
+              <img src="./images/gif/module_1/fourth_level/Anger4-unscreen.gif" className="image_gif" />
             </button>
             <button
               className={`btn_variant wrong_btn ${
@@ -193,6 +196,7 @@ const Fourth = () => {
               onClick={() => handleEmotionClick("Злість")}
             >
               Зніяковіння
+              <img src="./images/gif/module_1/fourth_level/Embarrassment4-unscreen.gif" className="image_gif" />
             </button>
           </div>
           <div className="variables_btn">
