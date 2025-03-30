@@ -1,3 +1,58 @@
+ENG
+Privacy Policy for EmoPuzzle
+
+1. General provisions
+
+This Privacy Policy describes how we collect, use, store, and protect personal data of users of the EmoPuzzle web platform and mobile application (hereinafter referred to as the “Platform”), which is powered by artificial intelligence (AI), analyzes camera and microphone data, but does not use it for self-learning.
+
+2. Collection of personal data
+
+We only collect personal data that is necessary for the proper functioning of the Platform and the provision of services. This includes:
+
+Data obtained through the device's camera and microphone, which are used to analyze emotions and interaction with the user.
+
+Technical data about the device (model, operating system, application version).
+
+We do not collect or use personal data to train AI or for any other purpose other than analytics and improving the Platform.
+
+3. Use of data
+
+The data obtained through the camera and microphone is used only to analyze emotions and create appropriate recommendations or feedback for the user.
+
+The data collected through the Platform is used exclusively for analytics and statistical research to improve the user experience and develop the functionality of the Platform.
+
+None of the collected data is used for AI training or other commercial purposes.
+
+5. Protection of personal data
+
+We use modern security measures to protect the personal data of users, including encryption and other methods to prevent unauthorized access, modification or loss of data.
+
+6. User rights
+
+Users have the right to access their personal data stored on the Platform.
+
+Users have the right to have their personal data corrected or deleted from the Platform upon request.
+
+If parents or guardians wish to withdraw their consent to data processing, they can do so by contacting the Platform's support service. This may result in termination of use of the Platform.
+
+7. Data storage
+
+We retain personal data only for the period necessary to fulfill the purposes for which it was collected, after which this data is deleted or anonymized.
+
+8. Use of third-party services
+
+The Platform may use third-party services for data processing, but these services must meet high security and privacy standards and are not used for AI self-learning.
+
+9. Changes to the Privacy Policy
+
+We have the right to change this Privacy Policy at any time. All changes will be effective upon posting on this page. We recommend that you review this Policy regularly.
+
+10. Contact information
+
+If you have any questions about this Privacy Policy or would like to exercise your rights to access, modify or delete your data, please contact us through the support service on our website.
+
+
+UA
 Політика конфіденційності для EmoPuzzle
 
 1. Загальні положення
