@@ -32,23 +32,9 @@ h3{
     justify-content: center;
     margin-top: 70px;
 }
-.image_fox{
-    margin-top: 3px;
-}
 
-.modal_h3{
-    text-align: left;
-    margin-bottom: 20px;
-}
 
-.image_fox_2_3{
-    height: 248px;
-}
-.image_market_3{
-    height: 215px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+
 .text_block{
     width: 597px;
     font-size: 22px;
@@ -96,9 +82,7 @@ h3{
     background-color: #7b8085;
     color: white;
 }
-.image_fox5{
-    height: 443px;
-}
+
 
 .wrong_btn{
     position: relative;
@@ -115,14 +99,7 @@ h3{
 .text_block p{
     margin-top: 26px;
 }
-.image_market{
-    height: 300px;
-}
-.image_market_2{
-    height: 190px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+
 .btn_variant{
     width: 500px;
 }
